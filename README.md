@@ -1,4 +1,4 @@
-```quickSort(int leftIndex , int rightIndex , int[] array){
+``` quickSort(int leftIndex , int rightIndex , int[] array){
 	int left = leftIndex;
 	int right = rightIndex;
 	int pivodIndex = array[(leftIndex + rightIndex) / 2];
