@@ -26,7 +26,6 @@ quickSort(int leftIndex , int rightIndex , int[] array){
 	if(rightIndex > left) quickSort(left, rightIndex , array);
 }
 
-```
 public static void bubbleSort(int[] array){
 	for(int i = 0 ; i < array.length ; i++){
 		for(int j = 0 ; j < array.length - 1 - i;j++){
@@ -39,7 +38,6 @@ public static void bubbleSort(int[] array){
 	}
 }
 
-```
 public static void selectSort(int[] array){
 	for(int i = 0 ; i < array.length - 1; i++){
 		for(int j = i+ 1; j < array.length ; j++){
@@ -52,7 +50,6 @@ public static void selectSort(int[] array){
 	}
 }
 
-```
 public static void insertSort(int[] array){
 	for(int i = 1; i < array.length;i++){
 		int insertValue = array[i];
