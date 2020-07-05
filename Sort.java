@@ -11,7 +11,6 @@ public class SortUtil(){
 				}
 			}
 		}
-
 	}
 
 	public static void selectSort(int[] array){
@@ -25,7 +24,6 @@ public class SortUtil(){
 				}
 			}
 		}
-
 	}
 
 	public static void insertSort(int[] array){
